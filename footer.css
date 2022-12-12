@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    padding: 3rem;
+    background-color:white;
+    border-top: 4px solid #ccc;
+}
+
+.footer a{
+    text-decoration: none;
+    transition: 0.7s;
+    letter-spacing: 4px; /*yazıların arasını açıyor*/
+}
+
+.footer ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.footer ul li {
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer ul svg{
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.footer a:hover{
+    color: black;
+    border-top: 2px solid black;
+}
+
+.footer h2{
+    color: tomato;
+    background-color: black;
+}
+

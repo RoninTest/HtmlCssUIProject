@@ -1,0 +1,55 @@
+.cards{
+    display: flex; /*bütün cartları yanyana getir*/
+    flex: wrap;
+    justify-content: center; /*yatayda hizala*/
+}
+
+
+.card-technology{
+    width: 15rem; /*genişilik*/
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 3px;
+}
+
+.card-technology img{
+    width: 100%;  /*.card-technology 15rem ise genişliği resminde o kadar olsun.*/
+    height: 150px;
+}
+
+
+
+.card-technology span{
+    background-color:white;
+    color:rgb(red, green, blue);
+    font-weight: bolder;
+    padding:5px;
+
+}
+
+.card-img{  
+    position: relative; /*sen artık bir akışkansın resim senin üzerine bişey korum ben*/
+}
+
+.card-img span{
+    position: absolute; /*spanda akışkan oldu*/
+    left: 0;
+    transition: 0.3s;
+}
+
+.card-text h2{
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.baslik{
+    border-left:4px solid blue;
+    margin-left: 50rem;
+    margin-top: 1px;
+    padding: 1px;
+}
+
+span:hover{
+    padding-left: 12px;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,36 @@
+.media{
+    display: flex;  /*videolarım flex olsun*/
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /*
+    flex-direction: column; flex olurkende alt alta gelsinler. 
+    align-items: center;
+    */
+}
+
+video{
+    width: 30rem;
+    margin: 12px;
+    padding: 12px;
+}
+
+.media-h2{
+    
+    margin-left: 50rem;
+    color:black;
+    font-size:20px;
+   
+}
+
+body{
+    background-image: url(/pictures/background3.jpg);
+}
+
+/*
+Eğer videoları yan yana yapmak istersen :hover
+width : 25rem; yaparsın
+.media içindeki felx-direction ve align-items'ı sil. 
+.media içerisine justify-contect : center yaparsan ortalanır.
+flex-wrap belli durumlarda alt satıra in dersin sığmayanlar aşağı iner.  
+*/
